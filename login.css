@@ -135,3 +135,31 @@ button:disabled {
     text-align: center;
     line-height: 1.4;
 }
+
+/* Блок під формою */
+.register-link {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee; /* Тонка лінія-розділювач */
+    text-align: center;
+}
+
+.register-link p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* Окремий стиль для кнопки реєстрації, щоб вона відрізнялася від основної */
+.secondary-btn {
+    background-color: transparent; /* Прозорий фон */
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    padding: 8px 15px;
+    width: 100%; /* На всю ширину, як і кнопка входу */
+}
+
+.secondary-btn:hover {
+    background-color: #f0f7ff;
+    color: #9cc8f8;
+}
